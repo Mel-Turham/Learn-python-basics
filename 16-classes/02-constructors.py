@@ -2,9 +2,9 @@ class Point:
   def __init__(self, x, y):
     self.x = x
     self.y = y
-  def move():
+  def move(self):
     print('Move')
-  def draw():
+  def draw(self):
     print('Draw')
 
 

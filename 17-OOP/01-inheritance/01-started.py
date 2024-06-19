@@ -6,15 +6,13 @@ class Dog(Mammal):
   def bark(self):
     print('bark')
   
+  # The code defines a class `Cat` that inherits from `Mammal`, with methods `Meow` and `walk` being
+  # called on an instance of `Cat`.
   
 class Cat(Mammal):
   def Meow(self):
     print('Meow')
 
-# dog1 = Dog()
-
-# dog1.walk()
-# dog1.bark()
 
 cat1 = Cat()
 cat1.Meow(
